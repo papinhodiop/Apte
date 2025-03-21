@@ -1,0 +1,46 @@
+/* solutions.component.css */
+.solutions-section {
+    padding: 60px 0;
+    background-color: #111;
+    text-align: center;
+}
+
+.solutions-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.solutions-gallery img {
+    width: 23%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .solutions-gallery img {
+        width: 48%;
+    }
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-custom {
+    background-color: #6ee7b7;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #5cd0a5;
+}
