@@ -1,1 +1,116 @@
 /* You can add global styles to this file, and also import other style files */
+yle>
+                  #y {
+                  transition: transform 0.3s ease; /* Animation de transition */
+              }
+          
+              #y:hover {
+                  transform: scale(1.05); /* Effet de zoom au survol */
+              }
+              #y {
+                transition: transform 0.3s ease; /* Animation de transition */
+            }
+        
+            #y:hover {
+                transform: scale(1.05); /* Effet de zoom au survol */
+            }
+            .custom-font-size {
+                font-size: 1.2rem; /* Taille de police personnalisée */
+            }
+
+            .col-md-4 {
+                transition: transform 0.3s ease; /* Animation de transition */
+            }
+        
+            .col-md-4:hover {
+                transform: scale(1.05); /* Effet de zoom au survol */
+            }
+
+            #p {
+                transition: transform 0.3s ease; /* Animation de transition */
+            }
+        
+            #p:hover {
+                transform: scale(1.05); /* Effet de zoom au survol */
+            }
+
+            #r {
+                transition: transform 0.3s ease; /* Animation de transition */
+            }
+        
+            #r:hover {
+                transform: scale(1.05); /* Effet de zoom au survol */
+            }
+
+            .custom-spacing {
+                margin-right: 10px; /* Espacement de 10px à droite */
+            }
+            
+            @media (max-width: 768px) {
+                .custom-spacing {
+                    margin-right: 0; /* Supprime la marge sur les petits écrans */
+                }
+            }
+                  .btn-custom {
+                      background-color: #6ee7b7; /* Couleur de fond */
+                      color: #000; /* Couleur du texte */
+                      padding: 10px 20px; /* Espacement interne */
+                      border-radius: 20px; /* Bordures arrondies */
+                      text-decoration: none; /* Supprime le soulignement */
+                      font-weight: bold; /* Texte en gras */
+                      transition: background-color 0.3s ease; /* Animation de transition */
+                  }
+              
+                  .btn-custom:hover {
+                      background-color: #5cd0a5; /* Couleur au survol */
+                  }
+              
+                  .bg-gray {
+                      background-color: #333; /* Couleur de fond gris */
+                  }
+              
+                  .rounded {
+                      border-radius: 10px; /* Bordures arrondies */
+                  }
+
+                  .custom-spacing {
+                    margin-right: 10px; /* Espacement de 10px à droite */
+                }
+                
+                @media (max-width: 768px) {
+                    .custom-spacing {
+                        margin-right: 0; /* Supprime la marge sur les petits écrans */
+                    }
+                }
+                      .btn-custom {
+                          background-color: #6ee7b7; /* Couleur de fond */
+                          color: #000; /* Couleur du texte */
+                          padding: 10px 20px; /* Espacement interne */
+                          border-radius: 20px; /* Bordures arrondies */
+                          text-decoration: none; /* Supprime le soulignement */
+                          font-weight: bold; /* Texte en gras */
+                          transition: background-color 0.3s ease; /* Animation de transition */
+                      }
+                  
+                      .btn-custom:hover {
+                          background-color: #5cd0a5; /* Couleur au survol */
+                      }
+                  
+                      .bg-gray {
+                          background-color: #333; /* Couleur de fond gris */
+                      }
+                  
+                      .rounded {
+                          border-radius: 10px; /* Bordures arrondies */
+                      }
+                      .col-md-4 {
+                        transition: transform 0.3s ease; /* Animation de transition */
+                    }
+                
+                    .col-md-4:hover {
+                        transform: scale(1.05); /* Effet de zoom au survol */
+                    }
+
+                    .custom-font-size {
+                        font-size: 1.2rem; /* Taille de police personnalisée */
+                    }
