@@ -6,7 +6,11 @@ import { FeaturesComponent } from './features/features.component';
 import { NewComponent } from './new/new.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 import { BuyComponent } from './buy/buy.component';
-import { ProductsComponent } from './products/products.component';
+import { ProductsComponent } from './footer/products.component';
+import { CommonModule } from '@angular/common';
+
+
+
 
 @Component({
   selector: 'app-root',
@@ -20,7 +24,10 @@ import { ProductsComponent } from './products/products.component';
     SolutionsComponent,
     BuyComponent,
     ProductsComponent,
-  ],
+    CommonModule
+],
   templateUrl: './app.component.html',
 })
-export class AppComponent {}
+export class AppComponent {
+ 
+}

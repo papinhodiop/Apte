@@ -1,22 +1,50 @@
-<!-- features.component.html -->
 <section class="features-section">
     <div class="container">
-        <div class="row">
-            <div class="col-md-3 feature-item">
-                <img src="assets/images/portrait.jpg" alt="Protection contre les intrusions">
-                <h3>Protection contre les intrusions</h3>
+        <div class="row g-2">
+            <!-- Bloc Protection contre les intrusions (Grand) -->
+            <div class="col-md-6">
+                <div class="feature-card feature-large">
+                    <img src="assets/images/intrusion.png" alt="Protection contre les intrusions" class="feature-img">
+                    <div class="feature-overlay">
+                        <h3>Protection contre les intrusions</h3>
+                        <a href="#" class="feature-link"></a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 feature-item">
-                <img src="assets/images/smiling.jpg" alt="Vidéosurveillance">
-                <h3>Vidéosurveillance</h3>
-            </div>
-            <div class="col-md-3 feature-item">
-                <img src="assets/images/woman.jpg" alt="Sécurité incendie">
-                <h3>Sécurité incendie</h3>
-            </div>
-            <div class="col-md-3 feature-item">
-                <img src="https://via.placeholder.com/100" alt="Confort et automatisation">
-                <h3>Confort et automatisation</h3>
+
+            <div class="col-md-6 d-flex flex-column">
+                <div class="row g-2">
+                    <!-- Bloc Vidéosurveillance -->
+                    <div class="col-md-6">
+                        <div class="feature-card">
+                            <img src="assets/images/alarm.png" alt="Vidéosurveillance" class="feature-img">
+                            <div class="feature-overlay">
+                                <h3>Vidéosurveillance</h3>
+                                <a href="#" class="feature-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bloc Sécurité incendie -->
+                    <div class="col-md-6">
+                        <div class="feature-card">
+                            <img src="assets/images/incident.jpg" alt="Sécurité incendie" class="feature-img">
+                            <div class="feature-overlay">
+                                <h3>Sécurité incendie</h3>
+                                <a href="#" class="feature-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bloc Confort et automatisation (Haut) -->
+                <div class="feature-card feature-tall mt-2">
+                    <img src="assets/images/confort-autom.png" alt="Confort et automatisation" class="feature-img">
+                    <div class="feature-overlay">
+                        <h3>Confort et automatisation</h3>
+                        <a href="#" class="feature-link"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
