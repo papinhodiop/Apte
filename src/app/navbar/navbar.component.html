@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
         <!-- Logo APTE -->
-        <a class="img-fluid" href="#">
+        <a class="img-fluid" routerLink="">
             <img src="assets/images/LOGO_PNG.png" alt="Logo APTE" height="40">
         </a>
 
@@ -14,13 +14,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <!-- Liste centrée -->
             <ul class="navbar-nav mx-auto text-white">
-                <li class="nav-item mx-3"><a class="nav-link text-white" href="#">Produits</a></li>
-                <li class="nav-item mx-3"><a class="nav-link text-white" href="#">Solutions</a></li>
-                <li class="nav-item mx-3"><a class="nav-link text-white" href="#">Assistance</a></li>
-                <li class="nav-item mx-3"><a class="nav-link text-white" href="#">Entreprise</a></li>
-                <li class="nav-item mx-3"><a class="nav-link text-white" href="#">Blog</a></li>
-                <li class="nav-item mx-3"><a class="nav-link text-white" href="#">Où acheter</a></li>
+                <li class="nav-item mx-3"><a routerLink="produits" class="nav-link text-white">Produits</a></li>
+                <li class="nav-item mx-3"><a routerLink="solutions" class="nav-link text-white">Solutions</a></li>
+                <li class="nav-item mx-3"><a routerLink="assistance" class="nav-link text-white">Assistance</a></li>
+                <li class="nav-item mx-3"><a routerLink="entreprise" class="nav-link text-white">Entreprise</a></li>
+                <li class="nav-item mx-3"><a routerLink="blog" class="nav-link text-white">Blog</a></li>
+                <li class="nav-item mx-3"><a routerLink="acheter" class="nav-link text-white">Où acheter</a></li>
             </ul>
+            
+            
 
             <!-- Bouton "Assembler le kit" à gauche -->
             <div>
