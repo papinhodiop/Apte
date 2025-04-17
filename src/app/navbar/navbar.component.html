@@ -1,0 +1,40 @@
+<!-- navbar.component.html -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <!-- Logo APTE -->
+        <a class="img-fluid" routerLink="">
+            <img src="assets/images/LOGO_PNG.png" alt="Logo APTE" height="40">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Liste centrée -->
+            <ul class="navbar-nav mx-auto text-white">
+                <li class="nav-item mx-3"><a routerLink="produits" class="nav-link text-white">Produits</a></li>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Solutions
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                    <li><a routerLink="appartement" class="dropdown-item">Appartements</a></li>
+                    <li><a routerLink="appartement" class="dropdown-item" href="#">Maisons privées</a></li>
+                    <li><a class="dropdown-item" href="#">Propriétés inoccupées</a></li>
+                </ul>
+                <li class="nav-item mx-3"><a routerLink="assistance" class="nav-link text-white">Assistance</a></li>
+                <li class="nav-item mx-3"><a routerLink="entreprise" class="nav-link text-white">Entreprise</a></li>
+                <li class="nav-item mx-3"><a routerLink="blog" class="nav-link text-white">Blog</a></li>
+                <li class="nav-item mx-3"><a routerLink="acheter" class="nav-link text-white">Où acheter</a></li>
+            </ul>
+            
+            
+
+            <!-- Bouton "Assembler le kit" à gauche -->
+            <div>
+                <a class="btn btn-outline-light me-auto" href="#">Assembler le kit</a>
+            </div>
+        </div>
+    </div>
+</nav>

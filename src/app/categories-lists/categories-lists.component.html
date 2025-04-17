@@ -1,0 +1,26 @@
+
+<div class="col md-4"></div>
+<h1>Produits</h1>
+<div class="category-container d-flex flex-column align-items-center justify-content-center">
+    <div class="d-flex overflow-auto w-100 justify-content-between px-5 category-wrapper position-relative">
+      <ul class="nav nav-pills flex-nowrap d-flex w-100 justify-content-center gap-4">
+        <li class="nav-item d-flex flex-column align-items-center" *ngFor="let cat of categories">
+          <img [src]="cat.icon" alt="{{ cat.name }}" class="category-icon mb-2">
+          <a class="nav-link px-3 py-2" [class.active]="cat === selectedCategory" (click)="selectCategory(cat)">{{ cat.name }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="row mt-4">
+    <div class="col-md-4 mb-3" *ngFor="let product of filteredProducts">
+      <div class="card">
+        <img [src]="product.image" class="card-img-top product-image" alt="{{ product.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ product.name }}</h5>
+          <p class="card-text">{{ product.description }}</p>
+          <p class="card-text text-primary">{{ product.price }} €</p>
+        </div>
+      </div>
+    </div>
+  </div>

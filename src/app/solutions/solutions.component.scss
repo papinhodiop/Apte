@@ -1,0 +1,38 @@
+/* solutions.component.css */
+.solutions-section {
+    padding: 60px 0;
+    background-color: #000000;
+    text-align: center;
+}
+
+.solution-item {
+    text-align: center;
+    width: 23%;
+}
+
+.solution-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.solution-btn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px 15px;
+    background-color: #0d6efd;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.solution-btn:hover {
+    background-color: #000000;
+}
+
+@media (max-width: 768px) {
+    .solution-item {
+        width: 48%;
+    }
+}
