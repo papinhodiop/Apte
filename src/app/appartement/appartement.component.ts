@@ -13,6 +13,7 @@ import { SupajaxComponent } from '../supajax/supajax.component';
 import { RealiseprojetComponent } from '../realiseprojet/realiseprojet.component';
 import { FaqComponent } from '../faq/faq.component';
 import { AutresolutionComponent } from '../autresolution/autresolution.component';
+import { ApheroComponent } from '../aphero/aphero.component';
 @Component({
   selector: 'app-appartement',
   imports: [NavbarComponent,ApparteComponent,
@@ -20,7 +21,8 @@ import { AutresolutionComponent } from '../autresolution/autresolution.component
     RepondbesoinComponent,RelevedefisComponent,
     VdpcComponent,ConstsecuriteComponent,
     TemoinclientComponent,SupajaxComponent,
-    RealiseprojetComponent,FaqComponent,AutresolutionComponent],
+    RealiseprojetComponent,FaqComponent,
+    AutresolutionComponent,ApheroComponent],
   templateUrl: './appartement.component.html',
   styleUrl: './appartement.component.scss'
 })
